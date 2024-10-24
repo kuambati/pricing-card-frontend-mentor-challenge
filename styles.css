@@ -1,0 +1,110 @@
+html{
+  box-sizing: border-box;
+  font-family: 'Karla';
+  font-size: 16px;
+}
+body{
+  padding: 210px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+h2,h4,p{
+  margin: 0;
+}
+#card{
+  background-color: white;
+  width: 650px;
+  height: 400px;
+  border-radius: 12px;
+  box-shadow: 3px 5px 14px -1px rgba(0,0,0,0.75);
+  overflow: hidden;
+  
+  
+}
+#top-section{
+  width: 100%;
+  height: 45%;
+  padding: 30px;  
+}
+
+#bottom-section{
+  width: 100%;
+  height: 55%;
+}
+
+#bottom-left-section{
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  vertical-align: top;
+  background-color: #239e9c;
+  padding: 25px;
+  color: white;
+}
+#bottom-right-section{
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  vertical-align: top;
+  padding: 25px;
+  background-color: #2ab8b6;
+  color: white;
+}
+#signup-btn{
+  background-color: #c0df34;
+  border-radius: 4px;
+  width:230px;
+  height: 40px;
+  padding: 10px;
+  box-shadow: 3px 5px 26px -10px rgba(0,0,0,0.75);
+  color: white;
+  margin-top: 10px;
+  border: none;
+  font-weight: 700;
+  
+}
+#top-section h2{
+  color: #239e9c;
+  margin-bottom: 15px;
+}
+#top-section h4{
+  color: #c0df34;
+  margin-bottom: 10px;
+}
+#top-section p{
+  color: #8593ab;
+}
+#signup-btn:hover{
+  opacity: 60%;
+  cursor: pointer;
+  transform: scale(1.02);
+}
+#cost-container{
+  margin-top: 20px;
+}
+#cost{
+  display: inline-block;
+  font-size: 30px;
+  font-weight: 700;
+}
+#frequency{
+  display: inline-block;
+  position: relative;
+  top: -4px;
+  opacity: 70%;
+  font-size: 0.9rem;
+}
+#bottom-right-section ul{
+  list-style: none;
+}
+#signup-container{
+  margin-top: 15px;
+  text-align: center;
+}
+#top-section p{
+  font-size: 0.87rem;
+  margin-bottom: 5px;
+}
+
