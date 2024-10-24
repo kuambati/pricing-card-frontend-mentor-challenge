@@ -4,7 +4,9 @@ html{
   font-size: 16px;
 }
 body{
-  padding: 210px;
+  padding: 100px;
+  max-width: max-content;
+  margin: auto;
 }
 
 *, *:before, *:after {
